@@ -5,7 +5,7 @@ body, ul {
     padding: 0px;
 }
 #menu a {
-    color: magenta;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-family: sans-serif;
     font-size: 20px;
@@ -20,10 +20,10 @@ body, ul {
 }
 #logo img {
     height: 60px;
-    width: 170px;
+    width: 150px;
 }
 #logo img:hover {
-    box-shadow: 2px 2px 4px rgba(161, 111, 255, 0.733);
+    box-shadow: 2px 2px 4px rgba(101, 26, 241, 0.733);
     transition: 0.3s;
 }
 #header {
@@ -33,7 +33,8 @@ body, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(253, 205, 255);
+    background: rgb(242, 144, 255);
+    box-shadow: 3px 3px 6px rgb(177, 65, 187); /* Sombra Menu */
 }
 #menu {
     display: flex;
@@ -44,3 +45,61 @@ body, ul {
     display: none;
 }
 /* Fim CSS estilo header */
+/* Início estilo carousel */
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    padding-top: 10px;
+    box-shadow: 3px 3px 6px rgb(129, 129, 129); /* Sombra Carousel */
+}
+/* Fim estilo carousel */
+/* Início estilo Banner Home*/
+/* Para aplicar estilos na CLASS > utilize o ponto [ . ] antes do objeto */
+/* Para aplicar estilos no ID > utilize a hashtag [ # ] antes do objeto */
+.section-banner-home {
+width: 100%;
+height: 650px;
+margin-top: 10px;
+padding: 50px;
+background-color: rgb(238, 134, 169);
+box-shadow: 3px 3px 6px rgb(207, 29, 133); /* Sombra Banner */
+}
+.section-banner-home img {
+    max-height: 70%;
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+.section-banner-home .texto-banner {
+    margin-top: 30px;
+    font-size: 22px;
+}
+.section-banner-home .texto-banner h1 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.section-banner-home .texto-banner a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(231, 79, 130);
+    padding: 4px 14px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.section-banner-home .texto-banner a:hover {
+    /* color: rgb 207, 177, 240; Cor do Texto */
+    /* text-shadow: 2px 2px 4px purple; sombra do texto */
+    color: rgb(207, 177, 240);
+    text-shadow: 2px 2px 4px purple;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Fim estilo Banner Home*/
