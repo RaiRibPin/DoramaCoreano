@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>KoreanDrama</title>
+    <link rel="icon" type="img" href="img/favicon4.png">
 </head>
 
 <body>
@@ -14,22 +15,121 @@
     <header id="header">
         <a id="logo" href="index.html"><img src="img/logokorea.png" alt="Logo Empresa modelo"></a>
         <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
                 <span id="hamburger"></span>
             </button>
             <ul id="menu" role="menu">
                 <li><a class="linkMenu" href="index.html">Home</a></li>
                 <li><a class="linkMenu" href="#">Doramas</a></li>
                 <li><a class="linkMenu" href="#">Notícias</a></li>
-                <li><a class="linkMenu" href="#">Trailers</a></li>
+                <li><a class="linkMenu" href="#">Cortes</a></li>
                 <li><a class="linkMenu" href="#">Contato</a></li>
             </ul>
         </nav>
-
-    </header> 
-
-
+    </header>
     <!-- Fim Menu -->
+    <!-- Início Carousel Página Principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-pause="hover">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2200">
+                <img 
+                 src="img/carousel1.jpg" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img 
+                 src="img/carousel2.1.webp" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img 
+                 src="img/carousel3.1.jpg" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img 
+                 src="img/carousel4.jpeg" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img 
+                 src="img/carousel5.1.jpg" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img 
+                 src="img/carousel6.1.jpg" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img 
+                 src="img/carousel reserve.jpg" 
+                 class="d-block w-100" 
+                 alt="Banner 1">
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            data-bs-target="#carouselExampleInterval"
+            type="button"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+    <!-- Fim Carousel Página Principal -->
+    <!-- Início Banner -->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/eunbin.jpg" alt="Banner Home">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-none d-md-block">
+                        <h1>Venha conhecer a estrela coreana Park Eun-Bin!</h1>
+                        <p class="d-none d-md-block">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eligendi magnam corporis cumque recusandae et doloremque dolorum sunt cum vitae veritatis ullam rerum quam, ab maiores nam aspernatur. Ullam, quisquam.</p>
+                            <a href="#">Saiba Mais</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Banner -->
+    <!-- Início Destaque -->
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+           
+            </div>
+        </div>
+    </div>
+<!-- Fim Destaque -->
+
+
 </body>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
 </html>
