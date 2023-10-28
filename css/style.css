@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto+Condensed:wght@100&display=swap');
 /* Arquivo da folha de estilos de todo o site */
 /* Início CSS estilo header */
 body, ul {
@@ -11,7 +11,7 @@ body, ul {
     /* font-family: sans-serif; */
     font-family: 'Playpen Sans', cursive;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     transition: 0.2s;
     text-align: center;
     padding: 0 0.4em 0.2em 0.4em; /* top - right - bottom - left */
@@ -65,7 +65,7 @@ body, ul {
 /* Fim estilo carousel */
 
 /* Início Estilo Media >> Mobile */
-@media (max-width: 600px) {
+@media (max-width: 690px) {
     #menu {
      display: block;
      position: absolute;
@@ -147,7 +147,7 @@ background-color: rgb(238, 134, 221);
 box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 }
 .section-banner-home img {
-    max-height: 70%;
+    height: 70%;
     width: 70%;
     display: block;
     margin: auto;
@@ -159,18 +159,17 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 .section-banner-home .texto-banner h1 {
     font-size: 30px;
     width: 90%; /* width = Largura */
-    font-weight: 800; /* font-weight = Espessura do texto */
+    font-weight: 400; /* font-weight = Espessura do texto */
     padding-bottom: 20px; /* padding-bottom = Margem interna > Embaixo */
     color: white;
     font-family: 'Playpen Sans', cursive;
 }
 .section-banner-home .texto-banner p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: white;
     text-align: justify;
     font-family: 'Playpen Sans', cursive;
-    font-weight: 550;
 }
 .section-banner-home .texto-banner a {
     color: rgb(255, 255, 255);
@@ -197,20 +196,19 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
     font-size: 25px;
     color: rgb(140, 26, 206);
     font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .destaque p {
     width: 77%;
     text-align: center;
     margin: 30px auto;
     font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
 }
 .destaque figcaption {
     font-size: 13px;
     color: #000;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     font-family: 'Playpen Sans', cursive;
 }
@@ -247,13 +245,12 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
     font-size: 26px;
     width: 70%;
     font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .novidades p {
     color: rgb(0, 0, 0);
     text-align: justify;
     font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
 }
 .novidades a {
     justify-content: center;
@@ -290,14 +287,13 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
     font-size: 24px;
     color: rgb(140, 26, 206);
     font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .galeria p {
     text-align: center;
     width: 50%;
     margin: 14px auto 50px;
     font-family: 'Playpen Sans', cursive;
-    font-weight: bolder;
 }
 .galeria .gallery {
     width: 30%;
@@ -364,6 +360,8 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 /* Início estilo Footer (rodape) */
 .rodape {
     padding: 50px 50px 0;
+    background-color: rgb(255, 140, 245);
+    color: white;
 }
 .rodape .container #logo-rodape img {
     height: 70%;
@@ -374,14 +372,14 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 }
 .rodape .container #logo-rodape img:hover {
     transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(117, 22, 206, 0.2);
 }
 .rodape .info-contato p {
     margin: 0;
 }
 .rodape .linkFooter {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     font-size: 13px;
     margin-left: 0.7rem;
 }
@@ -432,7 +430,7 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 }
 .embed-container h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bolder;
     font-family: 'Playpen Sans', cursive;
     color: #a812ff;
@@ -460,5 +458,58 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 .embed-container .col-lg-6 {
     margin-top: 30px;
 }
-
 /* Fim estilo Vídeos */
+/* Início estilo Contato */
+.contact {
+    padding: 70px 0px;
+    background: rgb(255, 171, 255);
+}
+.section-title h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid #ff33f5;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-family: 'Playpen Sans', cursive;
+}
+.section-title p {
+    color: rgb(185, 14, 190);
+    margin-bottom: 30px;
+    font-family: 'Playpen Sans', cursive;
+}
+.contact input,
+.contact textarea {
+    background: #fafafa;
+}
+.contact textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact .map {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 70%;
+}
+/* Fim estilo Contato */
+
+/* Início estilo marketing */
+.market-place {
+    height: 180px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.market-place img {
+    height: 300px;
+    width: 320px;
+}
+
+/* Fim estilo marketing */
