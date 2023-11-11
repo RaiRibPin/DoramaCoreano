@@ -493,9 +493,8 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
     border-radius: 4px;
     height: 70%;
 }
-/* Fim estilo Contato */
 
-/* Início estilo marketing */
+/* Início estilo Market Place */
 .market-place {
     height: 180px;
     width: 100%;
@@ -511,5 +510,70 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
     height: 300px;
     width: 320px;
 }
+/* Fim estilo Market Place */
 
-/* Fim estilo marketing */
+/* Fim estilo Contato */
+
+/* Início estilo Produtos */
+.col-lg-4 .card {
+    border-style: none;
+    border: 0px;
+    min-height: 300px;
+}
+.text-center .mb-5 {
+    /* margin-top: 20px; */
+    margin-top: 50px;
+    font-family: 'Playpen Sans', cursive;
+    font-weight: bold;
+    color:#a812ff;
+}
+.card img {
+    height: auto;
+    width: 100%;
+    /* max-height: 300px; */
+    }
+.bg-image {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    }
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.hover-overlay .mask {
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.hover-overlay .mask:hover {
+    opacity: 1;
+}
+.card-body .btn {
+    background-color: #ff33f5; /* cor do botão */
+    color: white; /*cor do texto do botão */
+    font-weight: 400; /* espessura do texto ex. negrito = bold */
+    border: none;
+    outline: 0px solid transparent;
+    font-family: 'Playpen Sans', cursive;
+}
+.car-title {
+    font-weight: bolder;
+    font-family: 'Playpen Sans', cursive;
+}
+.card-text {
+    font-family: 'Playpen Sans', cursive;
+}
+    
+
+
+/* Fim estilo Produtos */
