@@ -529,7 +529,7 @@ box-shadow: 3px 3px 6px rgb(207, 29, 192); /* Sombra Banner */
 }
 .card img {
     height: auto;
-    width: 100%;
+    width: auto;
     /* max-height: 300px; */
     }
 .card .bg-image {
